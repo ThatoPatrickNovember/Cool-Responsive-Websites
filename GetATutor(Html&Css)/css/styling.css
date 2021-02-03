@@ -1,0 +1,91 @@
+body{
+    background: url("../img/tutor.jpg") ;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+#logo img{
+    float: left;
+    height: 40px;
+    padding-top: 8px;
+    margin-left: 25px;
+}
+#logo h3{
+    float: left;
+    margin-left: 25px;
+    color: rgb(6, 31, 105);
+}
+.navbar-header{
+    border: 2px solid #6c748d;
+    border-radius: 25px;
+    text-align: center;   
+}
+.navbar-header #navbar li{
+    display: inline;
+    padding: 10px 20px 10px 20px;
+    text-align: center;
+    color: #fff;
+    margin-right: 35px;
+}
+.navbar-header #navbar li:hover{
+    background-color: slateblue;
+    border: 1px solid ; 
+    color: #fff;
+}
+.navbar-header #navbar a{
+   text-decoration: none;
+   color: rgb(60, 14, 145);
+}
+.navbar-header #navbar a:hover{
+    color: #fff;
+ }
+#contact{
+    float:right;
+    margin-top: -38px;
+    margin-right: 25px;
+}
+#btn{
+    height: 23px;
+    border-radius: 9px;
+    background-color: rgb(112, 94, 112, 0.5);
+}
+#btn:hover{
+    background-color: slateblue;
+    border: 1px solid ; 
+    color: #fff;
+}
+/*Dealing with the body Elements within the container tag*/
+.container{
+    padding: 50px;
+    text-align: center;
+    color: rgb(6, 31, 105);  
+}
+.container #introductio p{
+    text-align: justify;
+}
+#join{
+    width: 200px;
+    height: 35px;
+    border-radius: 8px;
+    background-color: rgb(112, 94, 112, 0.5);
+}
+#join:hover{
+    background-color: slateblue;
+    border: 1px solid ; 
+    color: #fff;
+}
+/**
+Creating Footer to showcase the developers credit
+**/
+.footer{
+    position: fixed;
+    
+    text-align: center;
+    font-weight: bolder; 
+    width: 100%;
+    bottom: 0;
+}
+
+
+
+
+
