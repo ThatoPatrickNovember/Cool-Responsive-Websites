@@ -1,0 +1,99 @@
+* {
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  body {
+    margin: 0;
+    background: url("../img/banking.jpg") no-repeat;
+    background-size: cover;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  /*Style the container that hold the navigation panel*/
+.navigation-bar{
+    padding: 50px;
+
+}
+  /*Style the Image Logo and Header*/
+#logo img{
+    float: left;
+    height: 65px;
+}
+#logo h4{
+    float: left;
+}
+  /* Style the top navigation bar */
+#navbar{
+    overflow: hidden; 
+    position: relative;
+  
+}
+#navbar li{
+    float: left;
+    text-align: center;
+    text-decoration: none;
+    padding:20px 25px;
+    display: block;
+}
+#navbar li:hover{
+    background-color:dodgerblue;
+    border-radius: 9px;
+    border: 1px solid;
+}
+#navbar li a{
+    text-decoration: none;
+}
+#navbar .btn{
+ float: right;
+ padding: 10px;
+ width: 150px;
+ background-color: transparent;
+ border-radius: 9px;
+ margin-left: 20px;
+}
+#navbar .btn:hover{
+    background-color:dodgerblue;
+   }
+/*Styling the main Content*/
+.main-content{
+    display: flex;
+}
+.banking{
+  
+    width: 50%;
+    padding:36px;
+    height: 400px;
+}
+.people{
+   
+    padding:36px;
+    width: 50%;
+}
+
+.promise{
+  
+    padding:36px;
+    width: 50%;
+}
+
+.main-content h4{
+    text-align: center;
+}
+.main-content img{
+    height: 150px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+/*Style the buttons*/
+
+
+/* Style the footer */
+.footer{
+    background-color: rgb(85, 169, 253);
+    position: fixed;
+    height: 100%;
+    width: 100%;
+    border-radius: 9px;
+    padding: 10px;
+}
+  
