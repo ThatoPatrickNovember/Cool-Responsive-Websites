@@ -1,2 +1,2 @@
 # GetATutor
-A website built using HTML5 and CSS
+The Cool Responsive websites repository is comprised of basic website built using only html and css
